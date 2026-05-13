@@ -49,13 +49,10 @@ WHERE
     skill_count > 10
 ORDER BY 
     skill_count DESC,
-    avg_salary DESC
-
-
+    avg_salary DESC;
 
 
 -- SIMPLER WAY TO WRITE WITHOUT CTE's
-
 SELECT 
     skills_dim.skill_id,
     skills,
@@ -75,4 +72,4 @@ HAVING
     COUNT(skills_job_dim.job_id) > 10
 ORDER BY 
     skill_count DESC,
-    avg_salary DESC
+    avg_salary DESC;
