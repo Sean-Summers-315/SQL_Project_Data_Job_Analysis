@@ -18,10 +18,10 @@ SQL queries? Check them out here: [project_sql folder](/project_sql/)
 
 ### Project Highlights
 
-📌 5 SQL queries written  
-📌 4 database tables analyzed  
-📌 Thousands of job postings examined  
-📌 Multiple visualizations created
+📌 Filtering, joins, aggregations, and CTEs applied  
+📌 5 analytical questions answered  
+📌 Thousands of job postings analyzed  
+📌 Multiple visualizations and insights generated
 
 ## Background
 Many aspiring data analysts, as well as myself, are entering the field through online courses, self-study, and portfolio projects rather than traditional degree programs. Because of this, I wanted to focus my analysis on jobs that may be more accessible to candidates without a college degree.
