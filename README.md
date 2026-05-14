@@ -18,8 +18,7 @@ SQL queries? Check them out here: [project_sql folder](/project_sql/)
 
 ### Project Highlights
 
-📌 5 business questions answered  
-📌 25+ SQL queries written  
+📌 5 SQL queries written  
 📌 4 database tables analyzed  
 📌 Thousands of job postings examined  
 📌 Multiple visualizations created
