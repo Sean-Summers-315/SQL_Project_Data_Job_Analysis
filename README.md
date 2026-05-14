@@ -6,12 +6,23 @@
 - [**The Analysis**](#the-analysis)
 - [**What I learned**](#what-i-learned)
 - [**Conclusions**](#conclusions)
+
 ## Introduction
+
+
 Breaking into data analytics without a traditional degree can feel challenging, especially for people looking for flexible remote work. This project explores remote data analyst job postings that do not list a degree as a requirement, with the goal of identifying realistic opportunities for skills-based candidates, through SQL-based analysis.
 
-This project was completed as part of Luke Barousse’s SQL course and showcases practical SQL skills including filtering, aggregation, joins, common table expressions, and data-driven storytelling.
+This project was completed as part of Luke Barousse's SQL course and showcases practical SQL skills including filtering, aggregation, joins, common table expressions, and data-driven storytelling. [Luke Barousse SQL Course](https://www.youtube.com/watch?v=7mz73uXD9DA)
 
 SQL queries? Check them out here: [project_sql folder](/project_sql/)
+
+### Project Highlights
+
+📌 5 business questions answered  
+📌 25+ SQL queries written  
+📌 4 database tables analyzed  
+📌 Thousands of job postings examined  
+📌 Multiple visualizations created
 
 ## Background
 Many aspiring data analysts, as well as myself, are entering the field through online courses, self-study, and portfolio projects rather than traditional degree programs. Because of this, I wanted to focus my analysis on jobs that may be more accessible to candidates without a college degree.
@@ -85,6 +96,14 @@ To better understand the salary potential for remote data analyst roles that do 
 - The top 10 salaries ranged from **$145,000 to $650,000**, showing that remote data analyst roles can offer high earning potential even when degree requirements are not listed.
 - It is important to note that the top two salaries appear to be **significant** **outliers** within the dataset. Even when excluding these outliers, the remaining top-paying data analyst roles consistently offered salaries above **$150,000**.
 
+> ### Key Takeaways
+
+> - Remote data analyst roles can still offer strong salary potential without explicit degree requirements.
+> - Most high-paying positions were senior or specialized roles rather than entry-level positions.
+> - SQL and analytics-focused positions appeared frequently among higher-paying opportunities.
+> - The dataset contained significant salary outliers, making it important to interpret averages carefully.
+> - Even after excluding outliers, many top roles still exceeded $150,000 annually.
+
 </details>
 
 
@@ -92,16 +111,12 @@ To better understand the salary potential for remote data analyst roles that do 
 <details>
 <summary><strong> Click Here</strong></summary>
 
-### Key Takeaways
-> - SQL appeared in most high-paying roles
-> - Tableau and Power BI were highly requested
-> - Senior analyst roles required broader technical stacks
-
 <br> 
 
 ```sql
 WITH top_paying_jobs AS (
     SELECT
+    job_id,
     job_title,
     job_title_short,
     job_schedule_type,
@@ -154,17 +169,17 @@ To better understand which technical skills are associated with the highest-payi
 - The most technically demanding roles often combined querying, visualization, programming, and cloud technologies into a single position.
 - Overall, the results suggest that candidates who build a diverse technical skill set may qualify for a wider range of high-paying remote data analyst opportunities.
 
+
+> ### Key Takeaways
+> - SQL appeared in most high-paying roles
+> - Tableau and Power BI were highly requested
+> - Senior analyst roles required broader technical stacks
+
 </details>
 
 ### 📈3. Top Demanded Data Analyst Skills
 <details>
 <summary><strong> Click Here</strong></summary>
-
- ### Key Takeaways
-> - SQL is the most valuable foundational skill for data analysts.
-> - Excel continues to play a major role in analytics workflows.
-> - Python is becoming increasingly important for higher-level analytical work.
-> - Visualization tools like Tableau and Power BI are highly desirable for communicating insights effectively.
 
 <br>
 
@@ -206,18 +221,17 @@ To better understand which technical skills are most commonly requested in remot
 - Visualization tools such as **Tableau** and **Power BI** appeared frequently throughout the dataset, reinforcing the importance of dashboarding and data storytelling skills.
 - The results suggest that employers value a combination of querying, spreadsheet analysis, programming, and visualization abilities when hiring remote data analysts.
 
+ >### Key Takeaways
+> - SQL is the most valuable foundational skill for data analysts.
+> - Excel continues to play a major role in analytics workflows.
+> - Python is becoming increasingly important for higher-level analytical work.
+> - Visualization tools like Tableau and Power BI are highly desirable for communicating insights effectively.
+
 </details>
 
-### 📈4. Top Paying Data Analyst Skills
+### 🎯4. Top Paying Data Analyst Skills
 <details>
 <summary><strong> Click Here</strong></summary>
-
-> ### Key Takeaways
-> - Big data and cloud technologies were associated with the highest-paying analyst roles.
-> - Specialized technical skills can significantly increase salary potential.
-> - Cloud database and infrastructure tools are becoming increasingly valuable in analytics careers.
-> - Combining analytics, programming, and cloud skills may provide stronger long-term career opportunities for remote data analysts.
-> - Higher-paying analyst roles often favor candidates with modern technical expertise beyond foundational spreadsheet and reporting tools.
 
 <br>
 
@@ -267,9 +281,16 @@ To better understand which technical skills are associated with the highest-payi
 - Programming and technical development skills, including **C**, were associated with above-average salaries, suggesting that software engineering knowledge can improve earning potential for analysts.
 - The results suggest that specialized and modern technical skills tend to correlate with higher salaries compared to more traditional analyst tools.
 
+> ### Key Takeaways
+> - Big data and cloud technologies were associated with the highest-paying analyst roles.
+> - Specialized technical skills can significantly increase salary potential.
+> - Cloud database and infrastructure tools are becoming increasingly valuable in analytics careers.
+> - Combining analytics, programming, and cloud skills may provide stronger long-term career opportunities for remote data analysts.
+> - Higher-paying analyst roles often favor candidates with modern technical expertise beyond foundational spreadsheet and reporting tools.
+
 </details>
 
-### 📈5. Most Optimal Data Analyst Skills
+### 5. 🏆Most Optimal Data Analyst Skills
 
 <details>
 <summary><strong> Click Here</strong></summary>
@@ -372,32 +393,37 @@ To better understand which skills offer the best balance between demand and sala
 - **Power BI** appeared in over **100** job postings and had an average salary of **$97,431**, showing that business intelligence tools remain valuable for remote analyst roles.
 - General office tools like **PowerPoint** and **Word** had lower average salaries compared to more technical tools, suggesting that technical analytics skills may have stronger salary potential.
 
+### Key Takeaways
+
+> - SQL offered the strongest balance of demand and salary, making it the most important foundational skill in the analysis.
+> - Python, Tableau, R, and Power BI showed strong value because they combined high demand with competitive salary potential.
+> - Looker had the highest average salary among the top 10 skills, despite appearing in fewer postings.
+> - Technical analytics and visualization tools generally showed stronger salary potential than general office tools.
+> - The most optimal skills were not just the highest-paying skills, but the ones that combined strong demand with strong salaries.
+
 </details>
 
 ## What I Learned
+Over the course of this project, I progressed from having no prior SQL experience to developing a strong understanding of core SQL concepts and functionality. This project provided me with the foundational skills that will support future projects and give me the confidence to tackle increasingly complex problems as I continue learning.
+
+Throughout this process, I learned essential SQL skills including data aggregation, value and date manipulation, SQL functions, query organization, filtering, sorting, and working with joins across multiple tables.
+
+One of the biggest lessons I learned was the importance of persistence and problem-solving. I encountered countless error messages and debugging challenges throughout the project, often working through many issues at once. Learning to troubleshoot, identify mistakes, and continue refining my queries is my greatest strength and has significantly increased both my technical skills and confidence as a SQL developer.
+
 
 ## Summary
+Throughout this analysis, remote data analyst roles showed strong salary potential, with many positions offering salaries above $100,000 and some exceeding $150,000. SQL emerged as the most important foundational skill due to its consistently high demand.
 
-This project explored remote data analyst job postings that did not explicitly require a college degree in order to better understand salary trends, in-demand skills, and the technologies associated with higher-paying opportunities. Using SQL and PostgreSQL, I analyzed job posting data to identify which skills appeared most frequently, which skills were associated with the highest salaries, and how demand compared to salary potential across different technologies.
+The analysis also showed that specialized technical skills such as programming, data visualization, cloud technologies, and data engineering tools were often associated with stronger salary potential. Higher-paying roles frequently required a combination of database querying, technical analysis, visualization, and business intelligence skills rather than expertise in a single area.
 
-The analysis showed that remote data analyst roles can still offer strong salary potential even without degree requirements, especially for candidates with specialized technical skills and experience working with modern data tools. While some salaries within the dataset appeared to be outliers, many remote analyst roles consistently offered salaries above $100,000 and several exceeded $150,000.
+Overall, this project demonstrates how SQL can be used to analyze raw data and uncover meaningful insights while showcasing practical data analysis and problem-solving skills.
 
-Across all analyses, SQL emerged as the single most important foundational skill due to its extremely high demand throughout the dataset. Excel also remained highly requested, demonstrating that traditional spreadsheet analysis still plays a major role in analytics workflows. At the same time, more advanced technical skills such as Python, Tableau, Power BI, R, Snowflake, Databricks, Hadoop, and cloud technologies were associated with stronger salary potential and more specialized analyst positions.
+>## Key Conclusions
 
-The project also revealed that higher-paying analyst jobs often required a diverse technical skill set rather than expertise in only one area. Roles associated with stronger salaries frequently combined database querying, data visualization, cloud technologies, programming, and business intelligence tools into a single position.
-
-Overall, this project demonstrates how SQL can be used to transform raw job posting data into actionable insights about the data analytics job market while also showcasing practical analytical and data storytelling skills.
-
-## Key Conclusions
-
-- Remote data analyst jobs without degree requirements can still offer highly competitive salaries.
-- SQL was the most valuable foundational skill due to its extremely high demand across job postings.
-- Python, Tableau, Power BI, and R provided a strong balance between market demand and salary potential.
-- Specialized technologies such as Databricks, Hadoop, Snowflake, BigQuery, and cloud platforms were associated with some of the highest salaries in the dataset.
-- Higher-paying analyst roles often favored candidates with broader technical skill sets that combined querying, visualization, programming, and cloud technologies.
-- Visualization and business intelligence tools remained highly valuable throughout the dataset, reinforcing the importance of data storytelling and reporting skills.
-- General office tools such as Word and PowerPoint appeared frequently but were associated with lower salaries compared to more technical analytics tools.
-
-### Final Takeaway
-
-This analysis suggests that aspiring data analysts can significantly improve their career opportunities by developing a combination of foundational analytics skills and modern technical tools. SQL serves as the core foundation, while skills such as Python, Tableau, Power BI, cloud technologies, and big data platforms can help candidates qualify for more advanced and higher-paying remote analyst roles. Most importantly, the results show that strong technical ability and practical skills may create valuable opportunities even for candidates entering the field through non-traditional paths rather than formal degree programs.
+>- Remote data analyst jobs without degree requirements can still offer highly competitive salaries.
+>- SQL was the most valuable foundational skill due to its extremely high demand across job postings.
+>- Python, Tableau, Power BI, and R provided a strong balance between market demand and salary potential.
+>- Specialized technologies such as Databricks, Hadoop, Snowflake, BigQuery, and cloud platforms were associated with some of the highest salaries in the dataset.
+>- Higher-paying analyst roles often favored candidates with broader technical skill sets that combined querying, visualization, programming, and cloud technologies.
+>- Visualization and business intelligence tools remained highly valuable throughout the dataset, reinforcing the importance of data storytelling and reporting skills.
+>- General office tools such as Word and PowerPoint appeared frequently but were associated with lower salaries compared to more technical analytics tools.
