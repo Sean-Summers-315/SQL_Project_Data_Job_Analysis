@@ -86,7 +86,7 @@ To better understand the salary potential for remote data analyst roles that do 
 | 10 | Data Analyst | CyberCoders | United States | Full-time | $145,000 |
 
 
-![Top Paying Roles](assets\top_paying_remote_data_analyst_jobs.png)
+![Top Paying Roles](assets/top_paying_remote_data_analyst_jobs.png)
 
 ### Key Insights
 
@@ -212,7 +212,7 @@ To better understand which technical skills are most commonly requested in remot
 | Tableau | 1,169 |
 | Power BI | 875 |
 
-![Most In-Demand Skills](assets\most_in_demand_skills.png)
+![Most In-Demand Skills](assets/most_in_demand_skills.png)
 ### Key Findings
 
 - **SQL** was by far the most in-demand skill, appearing in over **2,500** job postings, making it one of the most essential technical skills for aspiring data analysts.
@@ -271,7 +271,7 @@ To better understand which technical skills are associated with the highest-payi
 | C | $119,875 |
 | Snowflake | $114,437 |
 
-![Top Paying Skills](assets\top_10_paying_skills.png)
+![Top Paying Skills](assets/top_10_paying_skills.png)
 
 ### Key Findings
 
@@ -382,7 +382,7 @@ To better understand which skills offer the best balance between demand and sala
 | Looker | 49 | $103,795 |
 | Word | 48 | $82,576 |
 
-![Top 10 Skills by Demand and Salary](assets\top_10_optimal_skills_demand_salary_updated.png)
+![Top 10 Skills by Demand and Salary](assets/top_10_optimal_skills_demand_salary_updated.png)
 
 ### Key Findings
 
